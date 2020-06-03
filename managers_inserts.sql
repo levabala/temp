@@ -338,6 +338,260 @@ insert into
 values
   ('20', '4', 'Microsoft Surface', '', '30');
 
+-- prices
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('1', '01.06.2019', '1', '03.06.2019', '23');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('1', '04.06.2019', '1', '03.06.2020', '14');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('2', '04.06.2020', '1', '03.02.2021', '3');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('2', '04.02.2021', '1', '03.06.2022', '38');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('3', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('4', '01.02.2019', '2', '03.06.2022', '20');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('4', '01.02.2019', '2', '03.06.2022', '30');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('5', '01.02.2019', '3', '03.06.2022', '40');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('6', '01.02.2019', '3', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('7', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('8', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('9', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('10', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('11', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('12', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('13', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('14', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('15', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('16', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('17', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('18', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('19', '01.02.2019', '2', '03.06.2022', '10');
+
+insert into
+  prices (
+    productId,
+    dayFrom,
+    currentId,
+    dateto,
+    value_
+  )
+values
+  ('20', '01.02.2018', '3', '03.06.2022', '111');
+
 -- taxes
 insert into
   taxes (taxId, name_, value_, comments)
@@ -597,4 +851,13 @@ insert into
     cost
   )
 values
-  ('1', '18', '2', '5', '5', '01.01.2019', '100', '10000');
+  (
+    '1',
+    '18',
+    '2',
+    '5',
+    '5',
+    '01.01.2019',
+    '100',
+    '10000'
+  );
